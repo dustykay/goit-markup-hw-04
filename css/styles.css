@@ -47,7 +47,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
 }
 
 .header-logo-part {
@@ -56,6 +55,14 @@ img {
 
 .footer-logo-part {
   color: #f4f4fd;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.footer-logo {
+  margin-bottom: 16px;
 }
 
 /* #endregion Logo */
@@ -83,12 +90,21 @@ img {
   justify-content: space-between;
 }
 
+.header-navigation {
+  display: flex;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
 }
 
-.nav-list,
+.nav-list {
+  display: flex;
+  margin-right: 332px;
+  gap: 40px;
+}
+
 .address-list {
   display: flex;
   align-items: center;
@@ -99,7 +115,7 @@ img {
   margin-right: 76px;
 }
 
-.header-container a {
+.header .container a {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -116,11 +132,6 @@ img {
 .nav-list-link {
   font-weight: 500;
   color: #2e2f42;
-}
-
-.address-list-link {
-  font-weight: 400;
-  color: #434455;
 }
 
 .nav-list-link:hover,
@@ -147,6 +158,21 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+  padding: 24px 0;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-list-link {
+  font-weight: 400;
+  color: #434455;
 }
 /* #endregion header */
 
